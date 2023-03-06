@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 3.446 sec <<< FAILURE! - in TestSuite
+startWithCleanBrowser(e2e.FacebookairbnbnycmembersTest)  Time elapsed: 3.128 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.) 
+Host info: host: 'RESTOP-8732', ip: '192.168.1.233'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --user-data-dir=C:\Users\Re..., --start-maximized, disable-infobars, --disable-extensions, --disable-gpu, --disable-gpu, --disable-dev-shm-usage', --profile-directory=Default], extensions: [], useAutomationExtension: false}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --user-data-dir=C:\Users\Re..., --start-maximized, disable-infobars, --disable-extensions, --disable-gpu, --disable-gpu, --disable-dev-shm-usage', --profile-directory=Default], extensions: [], useAutomationExtension: false}}}]
+
+closeBrowserAfterTest(e2e.FacebookairbnbnycmembersTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "baseclasses.UIBaseClass.driver" is null
+

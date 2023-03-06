@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [all tests]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="ChromeBrowser(failed)" verbose="0">
+    <classes>
+      <class name="e2e.FacebookairbnbnycmembersTest">
+        <methods>
+          <include name="startWithCleanBrowser"/>
+          <include name="startUpE2E"/>
+          <include name="askEveryFacebookMemberIfTheyCanHelp"/>
+          <include name="closeBrowserAfterTest"/>
+        </methods>
+      </class> <!-- e2e.FacebookairbnbnycmembersTest -->
+    </classes>
+  </test> <!-- ChromeBrowser(failed) -->
+</suite> <!-- Failed suite [all tests] -->

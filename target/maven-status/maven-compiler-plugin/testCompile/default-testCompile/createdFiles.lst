@@ -1,0 +1,6 @@
+e2e\TemplateTest.class
+baseclasses\UIBaseClass.class
+e2e\FacebookairbnbnycmembersTest.class
+baseclasses\E2EBase.class
+sanity\UnitSanityTests.class
+baseclasses\WebServiceBaseClass.class
